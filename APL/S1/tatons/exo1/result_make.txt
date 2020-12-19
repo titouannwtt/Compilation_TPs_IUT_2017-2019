@@ -1,0 +1,6 @@
+as -o lire.o lire.s
+gcc -Wall -ansi -pedantic -g   -c -o personne.o personne.c
+gcc -Wall -ansi -pedantic -g   -c -o repertoire.o repertoire.c
+gcc -Wall -ansi -pedantic -g   -c -o main.o main.c
+gcc -Wall -ansi -pedantic -g -o exo1 lire.o personne.o repertoire.o main.o
+
