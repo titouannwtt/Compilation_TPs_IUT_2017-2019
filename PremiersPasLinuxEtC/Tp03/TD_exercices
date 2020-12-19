@@ -1,0 +1,49 @@
+Exercice 1 (Partie 2: Préprocesseur):
+	- Le fichier obtenu est-il plus grand ou plus petit que le fichier source ?
+		Le fichier obtenu (programme.i) est beaucoup plus gros que le fichier source (racine.c)
+	- Contient-il du texte ?
+		Oui, il contient du texte.
+	- Contient-il uniquement du texte ?
+		Non, il contient aussi des caractères comme des #, des / et des chiffres.
+	- Contient-il du texte du fichier source ?
+		Il ne contient pas réellement le même texte que le fichier source, mais il contient la partie "#include <math.h>" du fichier source.
+
+Exercice 2 (Partie 3: Compilateur)
+	- Ce fichier est-il plus grand ou plus petit que le fichier programme.i?
+		Ce fichier est plus petit que le fichier programme.i
+	- Contient-il du texte ?
+		Oui, très peu
+	- Contient-il uniquement du texte ?
+		Non, il contient principalement des caractères
+	- Est-il executable ?
+		Non
+
+Exercice 3 (Partie 3: Compilateur)
+	- Ce fichier est plus petit que le fichier programme.o ?
+		Ce fichier est plus petit que le fichier programme.o
+	- Ce fichier contient-il du texte ?
+		Oui, ce fichier contient du texte
+	- Contient-il uniquement du texte ?
+		Non, il contient aussi des caractères comme % et $
+	- Est-il executable ?
+		Non, il n'est pas executable, c'est un fichier ASCII text
+	- Son contenu vous rappelle-t-il quelque chose ?
+		-
+
+Exercice 4 (Partie 4: Editeur de liens):
+	- Ce fichier est-il plus grand ou plus petit que le fichier programme.o ?
+		Ce fichier est plus grand que le programme.o
+	- Contient-il du texte ?
+		Oui
+	- Contient-il uniquement du texte ?
+		Non
+	- Est-il executable ?
+		Oui
+	- Qu'est-ce qui change quand on applique ces commandes au fichier programme ?
+		La commande file nous donne plus d'informations sur le fichier, mais la commande objdump est plus structurée.
+
+Exercice 5 (Partie 5: Visualisation hexadécimale):
+	- Que voyez-vous ?
+		Des fichiers comportants des . devant leur nom, c'est à dire, des noms de fichiers cachés
+	- Comparez avec le résultat précedent. Qu'en concluez-vous ?
+		string peut servir à rechercher d'un certain type de chaine de caractères ASCII	 

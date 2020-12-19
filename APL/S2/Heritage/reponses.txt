@@ -1,0 +1,7 @@
+1) Documentation:
+	On trouve la classe String dans "java.lang.Object"
+	Elle hérite de la classe "Object"
+	11 méthodes sont transmises depuis la classe mère
+	Les méthodes "hashcode()", "equals()", "toString()" sont redéfinies.
+	
+
