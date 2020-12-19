@@ -1,0 +1,4 @@
+tcpdump -n src 172.16.2.113 and not host 172.16.1.21 and not host 172.16.1.30 and not 
+host 224.0.0.251
+
+tcpdump -n ip src 172.16.2.113 and not host 172.16.1.21 and not host 172.16.1.30 and not net 224.0.0.0/8
